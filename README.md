@@ -14,12 +14,12 @@ The Simple Supply components in this repository include:
 - A transaction processor that handles the Simple Supply transaction logic
 
 - A custom REST API that provides HTTP/JSON endpoints for querying blockchain
-  data, creates batches and transactions, and manages user information
+  data, creates batches and transactions and manages user information
 
 - An event subscriber that parses blockchain events and stores data in a local,
   off-chain reporting database
 
-- A simple client web app, Curator, that uses Simple Supply to track artwork
+- A simple client web app, Curator, uses Simple Supply to track artwork
   loans between museums, galleries, and private owners
 
 ## Usage
@@ -46,6 +46,6 @@ The available HTTP endpoints are:
 ## License
 
 The Sawtooth Simple Supply software and course material in the
-[course_modules](course_modules) subdirectory is licensed under a
+[course_modules](course_modules) subdirectory are licensed under a
 Creative Commons Attribution 4.0 International License.  You may obtain a copy
 of the license at: http://creativecommons.org/licenses/by/4.0/.
